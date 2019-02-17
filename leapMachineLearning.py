@@ -52,7 +52,6 @@ class assistListerner(Leap.Listener):
         distal_directions = []
         inter_directions = []
         promixal_directions = []
-        wrist_angle = 0
         if not frame.hands.is_empty:
             for hand in frame.hands:
                 handType = "Left Hand" if hand.is_left else "Right Hand"
