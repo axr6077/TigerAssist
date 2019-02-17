@@ -59,3 +59,6 @@ Jack Xu
 Acknowledgments
 Leap Motion Python API
 Support Vector Machine algorithm
+
+##Refereces
+https://developer.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html
