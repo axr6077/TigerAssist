@@ -1,6 +1,6 @@
 # TigerAssist
 
-In our society, there is a persistent language barrier between the hearing and the deaf. To bridge this gap, we created TigerAssist, a machine learning-based application that converts the alphabet of the American Sign Language to the English language. The program utilizes machine learning algorithms as well as virtual reality, computer vision and big data processing to make the world more convenient for everyone.
+In our society, there is a persistent language barrier between the hearing and the deaf. To bridge this gap, we created TigerAssist, a machine learning-based application that converts the alphabet of the American Sign Language to the English language. The program utilizes machine learning algorithms as well as virtual reality, computer vision and big data processing to parse live sign language gestures to text. 
 
 ------------------------------------
 Getting Started
