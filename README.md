@@ -52,6 +52,6 @@ We use PyCharm libs and pip for versioning.
 
 
 ## References
-https://developer.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html 
-https://support.leapmotion.com/hc/en-us/articles/223784048
+* https://developer.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html 
+* https://support.leapmotion.com/hc/en-us/articles/223784048
 
