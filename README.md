@@ -17,11 +17,10 @@ Install LeapMotion* sdk
 https://support.leapmotion.com/hc/en-us/articles/223784048
 
 ### Prerequisites
-
+* LeapMotion Controller 
+* A Computer!
 ```
-LeapMotion Controller 
 pip install -r requirements.txt 
-A Computer!
 ```
 
 ## Built With
