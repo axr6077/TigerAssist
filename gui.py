@@ -1,3 +1,6 @@
+'''
+@author : Ayush Rout
+'''
 from tkinter import *
 from leapMachineLearning import*
 
