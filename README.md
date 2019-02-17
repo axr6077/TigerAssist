@@ -1,6 +1,6 @@
 # TigerAssist
 
-In our society, there is a persistent language barrier between the hearing and the deaf. To bridge this gap, we created TigerAssist, a machine learning-based application that converts the alphabet of the American Sign Language to the English language. The program utilizes machine learning algorithms as well as virtual reality, computer vision and big data processing to parse live sign language gestures to text. 
+In our society, there is a persistent language barrier between the hearing and the deaf. To bridge this gap, we created TigerAssist, a machine learning-based application that converts alphabets of the American Sign Language to English language text. The program utilizes machine learning algorithms as well as virtual reality, computer vision and big data processing to parse live sign language gestures to text. 
 
 ## Getting Started
 
@@ -43,6 +43,20 @@ We use PyCharm libs and pip for versioning.
 
 * Python 
 * C++
+
+## Features
+* Versatility: The model can be trained with any set of lexicons: say convert a gesture to the word "beer" (**challenged by Constellation   Brands**) 
+* Easy accessibity services for the Deaf
+* Increased accuracy due to two input sources (LeapMotion Controller and Webcam) - Leap VR (0.64) and Computer Vision (0.73)
+* HoG algorithm and SVM model boosted learning accuracy
+
+## Future Development
+
+* Make camera wait until hand is detected 
+* Train with larger dataset to recognize more Hand Gestures 
+* Add a text to speech feature for virtual communication
+* Port python backend to be used in Android app for portability 
+* Better classifier between light sources and white background 
 
 ## Authors
 
