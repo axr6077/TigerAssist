@@ -62,3 +62,4 @@ Support Vector Machine algorithm
 
 ##Refereces
 https://developer.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html
+https://support.leapmotion.com/hc/en-us/articles/223784048
