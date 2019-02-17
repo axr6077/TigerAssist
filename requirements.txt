@@ -1,0 +1,8 @@
+opencv-python
+sklearn
+scikit
+numpy
+csv
+re
+tkinter
+tensorflow
