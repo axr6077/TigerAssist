@@ -1,3 +1,6 @@
+'''
+@author : Ayush Rout
+'''
 import cv2
 import numpy as np
 from numpy.linalg import norm
@@ -69,3 +72,25 @@ def hog_single(img):
     samples.append(hist)
     return np.float32(samples)
 
+def NeuralNet_train(num):
+    imgs = []
+    for i in range (65, num + 65):
+        for j in range(1, 401):
+            print('Class ' + chr(i) + ' is being loaded ')
+            imgs.append(cv2.imread('TrainData/' + chr(i) + '_' + str(j) + '.jpg', 0)) #store images in a list
+        labels = np.repeat(np.arrange(1, num+1), 400)
+        samples = preprocess_hog(imgs)
+        print('SVM is building')
+        #print('got here')
+        print(len(labels))
+        print(len(samples))
+        model = SVM(C = 2.97, gamma = 5.383)
+        model.train(np.array(samples), np.array(labels))
+    return model
+
+def predict(model, img):
+    samples = hog_single(img)
+    resp = model.predict(samples)
+    return resp
+
+#EOF
