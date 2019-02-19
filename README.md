@@ -22,6 +22,7 @@ https://support.leapmotion.com/hc/en-us/articles/223784048
 pip install -r requirements.txt 
 ```
 ## How to run it
+Open the source folder, import project into pycharm or run the following in the command line:
 ```
 python main.py 
 ```
