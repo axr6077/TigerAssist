@@ -5,13 +5,12 @@ In our society, there is a persistent language barrier between the hearing and t
 ## Getting Started
 
 Software: 
-Install Python 36 
-Install PyCharm or any text editor 
-Clone the repo 
-python main.py 
+* Install Python >= 3.0 
+* Install PyCharm or any text editor 
+* Clone the repo 
 
 Hardware: 
-Install LeapMotion* sdk
+* Install LeapMotion* sdk
 
 *If you're using Python version >= 2.7.0, you will need to compile leapPython as described here: 
 https://support.leapmotion.com/hc/en-us/articles/223784048
@@ -21,6 +20,10 @@ https://support.leapmotion.com/hc/en-us/articles/223784048
 * A Computer!
 ```
 pip install -r requirements.txt 
+```
+## How to run it
+```
+python main.py 
 ```
 
 ## Built With
