@@ -50,6 +50,7 @@ We use PyCharm libs and pip for versioning.
 ## Features
 * Versatility: The model can be trained with any set of lexicons: say convert a gesture to the word "beer" (**challenged by Constellation   Brands**) 
 * Easy accessibity services for the Deaf
+* Automate home appliances with hand gestures
 * Increased accuracy due to two input sources (LeapMotion Controller and Webcam) - Leap VR (0.64) and Computer Vision (0.73)
 * HoG algorithm and SVM model boosted learning accuracy
 
