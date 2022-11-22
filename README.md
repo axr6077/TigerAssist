@@ -2,6 +2,8 @@
 
 In our society, there is a persistent language barrier between the hearing and the deaf. To bridge this gap, we created TigerAssist, a machine learning-based application that converts alphabets of the American Sign Language to English language text. The program utilizes machine learning algorithms as well as virtual reality, computer vision and big data processing to parse live sign language gestures to text. 
 
+Find the project at [Devpost](https://devpost.com/software/tigerassist-sikwvm#updates).
+
 ## Getting Started
 
 Software: 
